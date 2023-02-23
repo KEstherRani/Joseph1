@@ -85,7 +85,7 @@ String ProductName="ZARA COAT 3";
 		
 		
 		System.out.println("*************"); 
-		//	driver1.close();
+			driver1.close();
 		
 	}
 

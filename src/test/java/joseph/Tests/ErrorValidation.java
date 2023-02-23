@@ -31,5 +31,16 @@ public class ErrorValidation extends BaseTest{
 		boolean b = CP.verifyIfProductIsinCart(ProductName);
 		Assert.assertTrue(b);
 	}
+	@Test
+	public void ProductErrorValidation1() throws InterruptedException{
+		
+		String ProductName = "ZARA COAT 3";
+		ProductCatalogue PC = LP.loginapp("jsunnyjoseph1@gmail.com", "J8o5s5e3$1");
+		List<WebElement> Cards = PC.getProductList();
+		PC.addToCart(ProductName);
+		CartPage CP = PC.goToCart();
+		boolean b = CP.verifyIfProductIsinCart(ProductName);
+		Assert.assertTrue(b);
+	}
 
 }
