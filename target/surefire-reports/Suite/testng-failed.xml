@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Submit Order Test(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="purchaseOrder"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="joseph.Tests.submit1">
+        <methods>
+          <include name="submitOrder" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- joseph.Tests.submit1 -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

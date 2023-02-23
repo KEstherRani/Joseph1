@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="32584" started-at="2023-02-12T10:57:10Z" finished-at="2023-02-12T10:57:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.s1$TestNGTestRunner@59ec2012]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="32584" started-at="2023-02-12T10:57:10Z" finished-at="2023-02-12T10:57:43Z">
+      <class name="Cucumber.s1$TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.s1$TestNGTestRunner@59ec2012]" name="setUpClass" is-config="true" duration-ms="696" started-at="2023-02-12T10:57:10Z" finished-at="2023-02-12T10:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9a2ec9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.s1$TestNGTestRunner@59ec2012]" name="runScenario" duration-ms="31803" started-at="2023-02-12T10:57:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-12T10:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test of submitting order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Cucumber.s1$TestNGTestRunner@59ec2012]" name="tearDownClass" is-config="true" duration-ms="62" started-at="2023-02-12T10:57:43Z" finished-at="2023-02-12T10:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber.s1$TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
